@@ -1,0 +1,111 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("foret.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(128, 128, 128, 0.5);
+    overflow: hidden;
+}
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+#header{
+
+}
+
+#header #demarrer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#header #demarrer button{
+    width: 6rem;
+    height: 3rem;
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+#header #demarrer p,#nb_errors{
+
+    color: greenyellow;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10rem;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    font-size: 3rem;
+}
+
+#header div button{
+
+    width: 6rem;
+    height: 3rem;
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+div{
+    margin-top: 10%;
+    color: black;
+
+}
+#result{
+    margin-top: 20rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+
+}
+#resultat {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.letter{
+    text-align: center;
+    align-items: end;
+    justify-content: center;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    background-color: greenyellow;
+    margin: 0 2em;
+    border: darkgreen solid 1px;
+    border-radius: 15px;
+
+}
+#centre{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#message {
+color:transparent;
+    height: 100vh;
+    font-size: 5rem;
+    background-repeat: no-repeat;
+}
+#message1 {
+
+    margin-top: 20px;
+    color:white;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}

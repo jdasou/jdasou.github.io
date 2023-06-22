@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Mon premier pendu</title>
+
+    <style>
+        body {
+            background-image: url('./il_794xN.3507767974_mz53.avif');
+            background-size: cover;
+        }
+
+        #result {
+            display: flex;
+        }
+
+        .letter {
+            display: block;
+            width: 32px;
+            height: 32px;
+            background-color: gray;
+            margin: 0 2em;
+            border: 1px solid whitesmoke;
+            text-align: center;
+            border-radius: 15%;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="h-screen container flex flex-col items-center justify-around">
+
+        <div>
+
+            <h1 class="text-3xl font-bold underline text-center text-white">
+                Mon premier pendu
+            </h1>
+            <h2 class="text-3xl font-bold  text-white">Nb Errors : <span id="nb_errors">0</span> </h2>
+        </div>
+        <div class="text-white" data-name="">
+            <p id="result" class="flex flex-wrap">
+            </p>
+        </div>
+        <button id="generate"
+            class="bg-gray-200 relative inline-block flex-shrink-0 border-2 border-transparent rounded-full cursor-pointer p-2">
+            Play
+        </button>
+    </main>
+</body>
+
+
+
+</html>
